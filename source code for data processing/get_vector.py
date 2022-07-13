@@ -80,7 +80,7 @@ def get_vector(x_step, y_step):
     print(len(taxi_data))
 
     def is_zeros(list):
-        for i in range(24):
+        for i in range(len(list)):
             if list[i] != 0:
                 return False
         return True
