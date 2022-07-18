@@ -1,0 +1,20 @@
+polynomial regression.py的输出结果
+
+degree为1,side length为1时R^2的值为0.3704542630237773
+degree为1,side length为2时R^2的值为0.6462461602986185
+degree为2,side length为1时R^2的值为0.6307618010264558
+degree为2,side length为2时R^2的值为0.9498539237565103
+degree为3,side length为1时R^2的值为0.9003156059897699
+degree为3,side length为2时R^2的值为1.0
+degree=1,dimension=4时R^2的值为0.541802990842865
+degree=1,dimension=5时R^2的值为0.4461328794989249
+degree=1,dimension=6时R^2的值为0.4935628284914654
+degree=1,dimension=7时R^2的值为0.6636975824891118
+degree=2,dimension=4时R^2的值为0.9988739507724733
+degree=2,dimension=5时R^2的值为0.9964393979489568
+degree=2,dimension=6时R^2的值为0.9978282298771942
+degree=2,dimension=7时R^2的值为0.9990675941240155
+degree=3,dimension=4时R^2的值为1.0
+degree=3,dimension=5时R^2的值为1.0
+degree=3,dimension=6时R^2的值为1.0
+degree=3,dimension=7时R^2的值为1.0
