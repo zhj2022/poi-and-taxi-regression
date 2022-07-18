@@ -12,6 +12,10 @@ All the data we use are in the files poi_data.npy, taxi_data.npy(for regression)
 
 ## regression
 - We tried linear model and XGBoost model. 
-- Both in linear model and XGBoost model, we found that when the side length of each region is 3 km, the model fits best.
+- Both in linear model and XGBoost model, we found that when the side length of each region is 3 km, the model predicts best.
 - We measured the importance of each dimension of poi_vector to judge which kind of poi influence the taxi_data more. 
 
+## relevance analysis  
+- In this part, we don't care about prediction ability of the model. Thus, we no longer divide the dataset into training set and test set.  
+- We use linear model and necessarily, polynomial model to analyze how poi_data determines taxi_data.
+- We've found that: 1.The bigger the region, the linear model fits better.  2.Considering regions without any taxi or not has little influence on this part.  3.The linear model fits worse on the 4th, 5th, 6th and 7th dimension of taxi_data, compared with other dimensions. We can use polynomial model to solve this problem.
