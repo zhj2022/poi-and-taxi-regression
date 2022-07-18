@@ -1,7 +1,7 @@
 # poi-and-taxi-regression
 ## data processing
 - get the data in arrive_point_array.npy and shanghai_poi.xlsx.  
-- divide Shanghai map into several regions who have the same area.  
+- divide Shanghai map into several regions which have the same area.  
 
 - for each region, construct two vectors: the first vector have 25 dimensions corresponding to 25 types of poi. For any dimension, the number of that dimension refers to the number of that kind of poi in this region;  the second vector has 24 dimensions corresponding to the 24 hours of a day. For any dimension, the number of that dimension refers to the number of taxis reaching this region during this certain period of time.  
 
