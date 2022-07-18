@@ -1,0 +1,48 @@
+tag_index = 0
+r2 = 0.367402, MSE = 6.655924, y_average = 1.506173
+tag_index = 1
+r2 = 0.349800, MSE = 3.534285, y_average = 1.072310
+tag_index = 2
+r2 = 0.376676, MSE = 1.853412, y_average = 0.677249
+tag_index = 3
+r2 = 0.184499, MSE = 0.921931, y_average = 0.430335
+tag_index = 4
+r2 = -0.393365, MSE = 3.879087, y_average = 0.546737
+tag_index = 5
+r2 = -0.130275, MSE = 43.985904, y_average = 1.301587
+tag_index = 6
+r2 = -0.054205, MSE = 84.722592, y_average = 2.047619
+tag_index = 7
+r2 = -0.568849, MSE = 56.836764, y_average = 1.647266
+tag_index = 8
+r2 = 0.046767, MSE = 41.573400, y_average = 2.121693
+tag_index = 9
+r2 = 0.008129, MSE = 48.476483, y_average = 2.142857
+tag_index = 10
+r2 = 0.105300, MSE = 45.300319, y_average = 2.345679
+tag_index = 11
+r2 = 0.248463, MSE = 32.727354, y_average = 2.232804
+tag_index = 12
+r2 = 0.113697, MSE = 36.554588, y_average = 2.393298
+tag_index = 13
+r2 = 0.160369, MSE = 43.870034, y_average = 2.529101
+tag_index = 14
+r2 = 0.171113, MSE = 49.267902, y_average = 2.619048
+tag_index = 15
+r2 = 0.197958, MSE = 34.585036, y_average = 2.493827
+tag_index = 16
+r2 = 0.188901, MSE = 39.336305, y_average = 2.400353
+tag_index = 17
+r2 = 0.221048, MSE = 29.973116, y_average = 2.379189
+tag_index = 18
+r2 = 0.192784, MSE = 25.501196, y_average = 2.171076
+tag_index = 19
+r2 = 0.288967, MSE = 16.243114, y_average = 2.086420
+tag_index = 20
+r2 = 0.236290, MSE = 17.968482, y_average = 2.116402
+tag_index = 21
+r2 = 0.246889, MSE = 13.053968, y_average = 1.927690
+tag_index = 22
+r2 = 0.311838, MSE = 7.433673, y_average = 1.650794
+tag_index = 23
+r2 = 0.332491, MSE = 5.887672, y_average = 1.467372
