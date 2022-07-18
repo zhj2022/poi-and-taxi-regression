@@ -30,7 +30,7 @@ for tag_index in range(24):
     intercept = reg.intercept_
     # print(coef,intercept)     
 
-    mse = MSE(ypred, ytest)
+    mse = MSE(ytest, ypred)
     r2 = r2_score(ytest, ypred)
     r2_array.append(r2)
     print("tag_index = %d, r2 = %f, mse = %f, y_average = %f" % (tag_index, r2, mse, ytest.mean()))
