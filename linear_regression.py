@@ -16,36 +16,19 @@ for i in range(np.shape(taxi_data)[0]):
         zero_row.append(i)
 taxi_data = np.delete(taxi_data, zero_row, 0)
 poi_data = np.delete(poi_data, zero_row, 0)
-# np.set_printoptions(threshold=np.inf)
-# print(taxi_data)
 
-# ones = np.ones((np.shape(taxi_data)[0],1))
-# taxi_data = np.append(taxi_data, ones, axis=1)
-print(np.shape(taxi_data),np.shape(poi_data))
+# print(np.shape(taxi_data),np.shape(poi_data))
 
 r2_array = []
-# # use taxi_data to predict poi_data
-# for tag_index in range(25):
-#     xtrain,xtest,ytrain,ytest = train_test_split(taxi_data,poi_data[:,tag_index],test_size=0.3,random_state=10)
-
-#     reg = LR().fit(xtrain,ytrain)
-#     ypred = reg.predict(xtest)
-#     coef = reg.coef_
-#     intercept = reg.intercept_
-#     # print(coef,intercept)
-
-#     mse = MSE(ypred, ytest)
-#     r2 = r2_score(ytest, ypred)
-#     r2_array.append(r2)
-#     print("tag_index = %d, r2 = %f, mse = %f, y_average = %f" % (tag_index, r2, mse, ytest.mean()))
 
 for tag_index in range(24):
     xtrain,xtest,ytrain,ytest = train_test_split(poi_data,taxi_data[:,tag_index],test_size=0.3,random_state=10)
     reg = LR().fit(xtrain,ytrain)
     ypred = reg.predict(xtest)
-    coef = reg.coef_
+    # Linear Model:
+    coef = reg.coef_    
     intercept = reg.intercept_
-    # print(coef,intercept)
+    # print(coef,intercept)     
 
     mse = MSE(ypred, ytest)
     r2 = r2_score(ytest, ypred)
