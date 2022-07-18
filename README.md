@@ -12,6 +12,6 @@ All the data we use are in the files poi_data.npy, taxi_data.npy(for regression)
 
 ## regression
 - We tried linear model and XGBoost model. 
-- Both in linear model and XGBoost model, we find that when the side length of each region is 3 km, the model fits best.
+- Both in linear model and XGBoost model, we found that when the side length of each region is 3 km, the model fits best.
 - We measured the importance of each dimension of poi_vector to judge which kind of poi influence the taxi_data more. 
 
